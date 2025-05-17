@@ -1,6 +1,8 @@
 package Sel.java;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LocatorStrategiesForWebElements {
@@ -23,8 +25,8 @@ public class LocatorStrategiesForWebElements {
 //		searchThisBlog.click();
 
 		// By LinkedText
-//		WebElement linkText = driver.findElement(By.linkText("http://www.Selenium143.blogspot.com"));
-//		linkText.click();
+		WebElement linkText = driver.findElement(By.linkText("http://www.Selenium143.blogspot.com"));
+		linkText.click();
 
 		// By PartialLinkedText
 //		WebElement partialLinkText = driver.findElement(By.partialLinkText("143.blogspot.com"));
