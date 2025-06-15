@@ -22,11 +22,11 @@ public class FileClassPractice {
 
 //		System.out.println(file.length());
 
-		FileReader fileReader = new FileReader(file);
-
-		int i;
-		while ((i = fileReader.read()) != -1) {
-			System.out.print((char) i);
+		try (FileReader fileReader = new FileReader(file)) {
+			int i;
+			while ((i = fileReader.read()) != -1) {
+				System.out.print((char) i);
+			}
 		}
 
 	}

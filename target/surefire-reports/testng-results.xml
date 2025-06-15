@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Test case started]]>
+    </line>
+    <line>
+      <![CDATA[Test case Succeded ]]>
+    </line>
+    <line>
+      <![CDATA[Test case started]]>
+    </line>
+    <line>
+      <![CDATA[Test case Succeded ]]>
+    </line>
+    <line>
+      <![CDATA[Test case started]]>
+    </line>
+    <line>
+      <![CDATA[Test case Succeded ]]>
+    </line>
+    <line>
+      <![CDATA[Test case started]]>
+    </line>
+    <line>
+      <![CDATA[Test case Succeded ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-06-10T11:01:57 IST" name="Suite" finished-at="2025-06-10T11:02:25 IST" duration-ms="28835">
+    <groups>
+    </groups>
+    <test started-at="2025-06-10T11:01:57 IST" name="Test" finished-at="2025-06-10T11:02:25 IST" duration-ms="28835">
+      <class name="omayo.testcases.SingleSelectDropDownVerification">
+        <test-method is-config="true" signature="setup()[pri:0, instance:omayo.testcases.SingleSelectDropDownVerification@235834f2]" started-at="2025-06-10T11:01:57 IST" name="setup" finished-at="2025-06-10T11:02:10 IST" duration-ms="13064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="SingleSelctDropDown()[pri:0, instance:omayo.testcases.SingleSelectDropDownVerification@235834f2]" started-at="2025-06-10T11:02:10 IST" name="SingleSelctDropDown" finished-at="2025-06-10T11:02:11 IST" duration-ms="965" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started]]>
+            </line>
+            <line>
+              <![CDATA[Test case Succeded ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SingleSelctDropDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:omayo.testcases.SingleSelectDropDownVerification@235834f2]" started-at="2025-06-10T11:02:11 IST" name="tearDown" finished-at="2025-06-10T11:02:12 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- omayo.testcases.SingleSelectDropDownVerification -->
+      <class name="omayo.testcases.HomePageTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:omayo.testcases.HomePageTestCase@49139829]" started-at="2025-06-10T11:01:57 IST" name="setup" finished-at="2025-06-10T11:02:09 IST" duration-ms="11893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePage()[pri:0, instance:omayo.testcases.HomePageTestCase@49139829]" started-at="2025-06-10T11:02:09 IST" name="verifyHomePage" finished-at="2025-06-10T11:02:09 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started]]>
+            </line>
+            <line>
+              <![CDATA[Test case Succeded ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:omayo.testcases.HomePageTestCase@49139829]" started-at="2025-06-10T11:02:09 IST" name="tearDown" finished-at="2025-06-10T11:02:09 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- omayo.testcases.HomePageTestCase -->
+      <class name="omayo.testcases.VerifyTourLoginUsingSignInAndPassword">
+        <test-method is-config="true" signature="setup()[pri:0, instance:omayo.testcases.VerifyTourLoginUsingSignInAndPassword@5656be13]" started-at="2025-06-10T11:02:09 IST" name="setup" finished-at="2025-06-10T11:02:16 IST" duration-ms="6674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="signUpVerification()[pri:0, instance:omayo.testcases.VerifyTourLoginUsingSignInAndPassword@5656be13]" started-at="2025-06-10T11:02:16 IST" name="signUpVerification" description="Verifying Successful Login" finished-at="2025-06-10T11:02:25 IST" duration-ms="8995" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started]]>
+            </line>
+            <line>
+              <![CDATA[Test case Succeded ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signUpVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:omayo.testcases.VerifyTourLoginUsingSignInAndPassword@5656be13]" started-at="2025-06-10T11:02:25 IST" name="tearDown" finished-at="2025-06-10T11:02:25 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- omayo.testcases.VerifyTourLoginUsingSignInAndPassword -->
+      <class name="omayo.testcases.MultiSelectDropDownVerification">
+        <test-method is-config="true" signature="setup()[pri:0, instance:omayo.testcases.MultiSelectDropDownVerification@55182842]" started-at="2025-06-10T11:01:57 IST" name="setup" finished-at="2025-06-10T11:02:12 IST" duration-ms="15130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="multiSelectVerification()[pri:0, instance:omayo.testcases.MultiSelectDropDownVerification@55182842]" started-at="2025-06-10T11:02:12 IST" name="multiSelectVerification" finished-at="2025-06-10T11:02:12 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case started]]>
+            </line>
+            <line>
+              <![CDATA[Test case Succeded ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- multiSelectVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:omayo.testcases.MultiSelectDropDownVerification@55182842]" started-at="2025-06-10T11:02:12 IST" name="tearDown" finished-at="2025-06-10T11:02:12 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- omayo.testcases.MultiSelectDropDownVerification -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

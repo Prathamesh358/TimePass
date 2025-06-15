@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<exclude name="sanity"></exclude>
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="TestNGPractice.ListenerImpl"></listener>
+	</listeners>
+
+	<test thread-count="3" name="Test" parallel="methods">
+		<!-- 
+		<classes>
+			<class name="omayo.testcases.OmayoBaseTest" />
+			<class name="omayo.testcases.SingleSelectDropDownVerification" />
+			<class name="omayo.testcases.VerifyTourLoginUsingSignInAndPassword" />
+			<class name="omayo.testcases.HomePageTestCase" />
+		</classes>-->
+		<packages>
+			<package name="omayo.testcases"></package>
+		</packages>
+
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
